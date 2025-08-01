@@ -51,7 +51,7 @@ def parse_resume_sections(text: str):
 
 def create_speaking_script(sections):
     return f"""
-Hi, I’m {sections.get("Name", "John Doe")}. I would like to introduce myself.
+Hi, I’m {sections.get("Name", sections["Name"])}. I would like to introduce myself.
 Here's a quick summary: {sections.get("Summary", "")}
 I have experience in {sections.get("Experience", "")}
 I studied at: {sections.get("Education", "")}
