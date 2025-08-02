@@ -2,13 +2,12 @@
 
 ## Basic Details
 
-**Team Name:** ByteMe
+**Team Name:** Hello World
 
 ### Team Members
 
-- **Team Lead:** Alex Bytes - MIT
-- **Member 2:** Tina Text - Stanford University  
-- **Member 3:** Vid Voice - IIT Delhi
+- **Team Lead:** Alan Joshi George
+- **Member 2:** Affan Muhammed N
 
 ---
 
@@ -45,11 +44,6 @@ Using generative AI, we extract your career highlights from a PDF, synthesize sp
   - VSCode  
   - Git & GitHub  
 
-### For Hardware:
-
-*No hardware used.* Unless you count the developer’s overworked laptop.
-
----
 
 ## 🧰 Implementation
 
@@ -62,4 +56,4 @@ Using generative AI, we extract your career highlights from a PDF, synthesize sp
 cd backend
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+
